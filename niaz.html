@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Personal Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-GqM61uohQFtsZsw1LOjJKzITJ3l38LnohmgPwvzsGK0nN87ppiC2mmnFbX2Hj9/D8cHHLFvEOQjNW9I8pDULXQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('NIAZ.png') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .container {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+      transform: translateY(100px);
+      opacity: 0;
+      animation: slideIn 1s forwards;
+    }
+
+    h1 {
+      color: #333;
+      animation: pulsate 2s ease-in-out infinite;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    section {
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    section:hover {
+      background-color: #f2f2f2;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      margin: 0 10px;
+      font-size: 20px;
+      color: #333;
+      transition: color 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      color: #007bff;
+    }
+
+    @keyframes pulsate {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    @keyframes slideIn {
+      0% {
+        transform: translateY(100px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Welcome to My Personal Website</h1>
+    </header>
+    
+    <section>
+      <h2>About Me</h2>
+      <p>Hello! My name is Niaz Rahman, and I am a passionate web developer. I enjoy creating websites and learning new technologies.</p>
+    </section>
+
+    <section>
+      <h2>Contact Information</h2>
+      <p>Email: rahmanniaz29@gmail.com</p>
+      <p>Phone: 01996156419</p>
+      <p>Location: Dhaka, Bangladesh</p>
+    </section>
+
+   
+    <section>
+        <h2>Connect with Me</h2>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/profile.php?id=100009897857995" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+          <a href="https://www.linkedin.com/in/niaz-rahman-a27120245/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        </div>
+      </section>
+  
+      <section>
+        <h2>My Journey</h2>
+        <p>I started my journey in web development several years ago. Since then, I have been constantly learning and exploring various web technologies to enhance my skills and expand my knowledge. I have worked on numerous projects, both personal and professional, which have helped me gain valuable experience and improve my problem-solving abilities.</p>
+        <p>I am passionate about creating user-friendly and visually appealing websites that provide a seamless browsing experience. I believe in staying up-to-date with the latest industry trends and incorporating best practices into my work.</p>
+      </section>
+  
+      <footer>
+        <p>&copy; 2023 Niaz Rahman. All rights reserved.</p>
+      </footer>
+    </div>
+  
+    <!-- Font Awesome CDN for social media icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha512-ijJYmVUJBUAa1f6eT8SJyojE2MLXye2HgeAWgFLD3sTcj2v7A1t95hO5M6vsVm7JLwrZTsj6ekntCTRFcT/eHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </body>
+  </html>
